@@ -15,7 +15,7 @@ def is_prime(num) -> bool:
     return True
 
 
-def find_first_10digit_prime_in_e() -> int:
+def find_first_10digit_prime_in_e():
     s = Number(0)
     n = Number(0)
     a = Number(10 ** 9)
