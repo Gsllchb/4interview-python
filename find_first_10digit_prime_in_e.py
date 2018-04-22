@@ -20,7 +20,7 @@ def find_first_10digit_prime_in_e() -> int:
     n = Number(0)
     a = Number(10 ** 9)
     while True:
-        while a >= (1 - s % 1) / 2:
+        while a > (1 - s % 1) / 2:
             s += a
             n += 1
             a /= n
