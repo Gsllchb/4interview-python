@@ -1,5 +1,4 @@
 import copy
-import math
 
 N = 8
 counter = 0
